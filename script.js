@@ -1,10 +1,19 @@
+const nome = document.getElementById("nome");
+const email = document.getElementById("email");
+const fone = document.getElementById("fone");
+const assunto = document.getElementById("assunto");
+const mensagem = document.getElementById("mensagem");
 
-Email.send({
-    SecureToken : "453921ff-857f-4ee1-8e88-7e0d4d74c872",
+
+function sendEmail(){
+  Email.send({
+    SecureToken : " 53195838-6a15-44a5-83ee-8aee01d4e9fd",
     To : 'contato@paivamurno.com.br',
     From : "felipe@paivamurno.com.br",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    Subject : assunto,
+    Body : nome, email, fone, mensagem
 }).then(
-  message => alert(message)
+  message => alert("Mensagem Enviada com sucesso")
 );
+
+}

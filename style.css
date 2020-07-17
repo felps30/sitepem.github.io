@@ -26,6 +26,7 @@ ul{
     margin: 0 20px;
     cursor: pointer;
     margin-right: 3px;
+    margin-top: 60px;
 }
 .menu a{
     color: #ffffff;
@@ -52,6 +53,8 @@ ul{
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
+    margin-top: 150px;
+    margin-left: -15px;
     }
 @keyframes fadeIn {
     0% {opacity:0;}
