@@ -5,7 +5,7 @@ body{
 }
 header{
     background-color: #23272d;
-    width: 1350px;
+    width: 100vw;
     height: 500px;
 }
 
@@ -126,7 +126,7 @@ h2{
 }
 
 #empresa{
-    width: 1350px;
+    width: 100vw;
     height: 500px;
     background-color: #ffffff;
     margin-top: -100px;
