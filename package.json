@@ -1,7 +1,6 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/felps30/site_pem/issues"
   },
-  "homepage": "https://github.com/felps30/site_pem#readme"
+  "homepage": "https://github.com/felps30/site_pem#readme",
+  "description": "",
+  "dependencies": {
+    "emailjs-com": "^2.4.1",
+    "jquery-mask-plugin": "^1.14.16"
+  }
 }

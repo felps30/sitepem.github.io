@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    width: 100vw;
 }
 header{
     background-color: #23272d;
@@ -159,7 +159,7 @@ h3{
     width: 40px;
     height: 3px;
     margin-left: 0px;
-    margin-top: -15px;
+    margin-top: 5px;
     border-color: transparent;
 }
 
@@ -183,7 +183,7 @@ h3{
     width: 40px;
     height: 3px;
     margin-left: 0px;
-    margin-top: -15px;
+    margin-top: 5px;
     border-color: transparent;
 }
 
@@ -319,7 +319,7 @@ h3{
     width: 40px;
     height: 3px;
     margin-left: 0px;
-    margin-top: -15px;
+    margin-top: 5px;
     border-color: transparent;
 }
 
@@ -398,28 +398,33 @@ textarea{
 
 footer{
     background: #23272D;
-    height: 200px;
+    height: 150px;
     margin-top: 320px;
 }
 
 .footer{
     color: #999999;
     font-family: roboto;
-    font-size: 18px;
+    
 }
 
 .footer h3{
-   padding-top: 40px;
+   padding-top: 30px;
    margin-left: 30px;
+   font-size: 16px;
 }
 
 .footer h4{
     margin-left: 30px;
-    margin-top: -10px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .footer p{
-    margin-left: 1150px;
-    margin-top: 50px;
+    margin-left: 1050px;
     font-size: 12px;
+    margin-top: -40px;
+}
+.fa-code{
+    color: #daa520;
 }
